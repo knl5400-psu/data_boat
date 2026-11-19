@@ -33,3 +33,14 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
    $ uv run streamlit run streamlit_app.py
    ```
+   | Sensor | Demo Value Line | Metric Label/Unit | Chart Label |
+|---|---:|---:|---:|
+| Temperature | 169 | 267 | 281 |
+| Pressure | 170 | 268 | 282 |
+| Altitude | 171 | 269 | 283 |
+| Humidity | 172 | 270 | 284 |
+| Heading | 173 | 271 | 285 |
+
+### Serial Data
+
+For serial data, the JSON key names must match `SERIAL_FIELDS`.
