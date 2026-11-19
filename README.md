@@ -1,4 +1,4 @@
-# 🎈 Data Boat Display
+# Data Boat Display
 
 A  Streamlit app for you to modify!
 
