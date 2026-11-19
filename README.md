@@ -19,27 +19,31 @@ Each serial sample should be a JSON object on one line:
 Prerequisite: install `uv` if you don't already have it.
 
 ```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
+irm https://astral.sh/uv/install.ps1 | iex
 ```
 
 1. Sync the dependencies
 
    ```
-   $ uv sync
+   uv sync
    ```
 
 2. Run the app
 
    ```
-   $ uv run streamlit run streamlit_app.py
+   uv run streamlit run streamlit_app.py
    ```
-   | Sensor | Demo Value Line | Metric Label/Unit | Chart Label |
-|---|---:|---:|---:|
-| Temperature | 169 | 267 | 281 |
-| Pressure | 170 | 268 | 282 |
-| Altitude | 171 | 269 | 283 |
-| Humidity | 172 | 270 | 284 |
-| Heading | 173 | 271 | 285 |
+## Sensor Configuration
+
+The sensor variables are controlled in several places. Here is what to change:
+
+| Sensor | Demo Value Line | Metric Label/Unit | Chart Label |
+|---|---|---|---|
+| Temperature | Line 169 | Line 267 | Line 281 |
+| Pressure | Line 170 | Line 268 | Line 282 |
+| Altitude | Line 171 | Line 269 | Line 283 |
+| Humidity | Line 172 | Line 270 | Line 284 |
+| Heading | Line 173 | Line 271 | Line 285 |
 
 ### Serial Data
 
