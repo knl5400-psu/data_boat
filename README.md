@@ -48,3 +48,4 @@ The sensor variables are controlled in several places. Here is what to change:
 ### Serial Data
 
 For serial data, the JSON key names must match `SERIAL_FIELDS`.
+To change the serial baud rate, use line 232. If it should always use the same port or baud rate instead of a dropdown, change lines 221–232.
